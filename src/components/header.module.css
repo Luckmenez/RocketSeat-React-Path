@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-700);
+  height: 12.5rem;
+}
+
+.container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to {
+  margin-left: 0.75rem;
+  color: var(--blue-500);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.do{
+  color: var(--purple-700);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
