@@ -1,0 +1,15 @@
+.container {
+  margin: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container p {
+  color: var(--gray-300);
+  line-height: 150%;
+}
+
+.container p:first-of-type {
+  margin-top: 1rem;
+}

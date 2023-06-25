@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: 36px 1fr 24px;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.container:not(:first-child){
+  margin-top: 0.75rem;
+}
+
+.finishedToDo {
+  cursor: pointer;
+  border-radius: 100%;
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  background-color: var(--purple-700);
+}
+
+.finishedToDo::after {
+  cursor: pointer;
+  content: '\2714';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFinishedToDo {
+  cursor: pointer;
+  border: 1px solid var(--blue-500);
+  border-radius: 100%;
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.container span {
+  min-width: 100%;
+  max-width: 100%;
+  line-height: 150%;
+}
+
+.icon {
+  cursor: pointer;
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+}
